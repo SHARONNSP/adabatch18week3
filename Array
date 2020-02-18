@@ -1,0 +1,20 @@
+var scores = [80,70,60,40,30,100,90];
+
+//First item of the array because array index start from 0
+console.log(scores[0]);
+console.log(scores[2]);
+console.log(scores.length);
+
+//Add on a item at the end
+scores.push(99);
+console.log(scores);
+
+//Remove the last item
+scores.pop();
+console.log(scores);
+
+//print all the item individually in console
+for(var i=0; i<scores.length; i++){
+  console.log(scores[i]);
+}
+
