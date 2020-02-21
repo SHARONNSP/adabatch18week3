@@ -1,0 +1,13 @@
+var myNumber = 10.23456;
+
+console.log(myNumber.toFixed(3));
+console.log(myNumber.toPrecision(3));
+
+var anotherNumber = 10.3;
+console.log(Math.round(anotherNumber));
+//The decimal will be go up
+console.log(Math.ceil(anotherNumber));
+//The decimal will be go down
+console.log(Math.floor(anotherNumber));
+console.log(Math.sqrt(5));
+console.log(Math.random());
