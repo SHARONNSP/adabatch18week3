@@ -1,0 +1,10 @@
+function calculateVowel(sentence){
+  var vowel = 0;
+  var smallLetter = sentence.toLowerCase();
+  for(var i=0; i<sentence.length; i++){
+    if(smallLetter.charAt(i) == 'a'||smallLetter.charAt(i) == 'e'||smallLetter.charAt(i) == 'i'||smallLetter.charAt(i) == 'o'||smallLetter.charAt(i) == 'u')
+       vowel++;
+  }
+  return vowel;
+}
+console.log(calculateVowel("asia developer academy"));
